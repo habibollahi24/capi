@@ -2,7 +2,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
 
-export default function AboutPage() {
+export default async function AboutPage() {
   return (
     <Card
       dir="rtl"
@@ -11,9 +11,9 @@ export default function AboutPage() {
       <CardContent className="space-y-6 text-right py-8">
         <h2 className="text-2xl font-bold">✨ درباره پروژه</h2>
         <p>
-          این پروژه به‌منظور ارسال برای یک مصاحبه کاری طراحی و توسعه
-          داده شده است. تکنولوژی‌های به‌کار رفته در این پروژه شامل
-          موارد زیر می‌باشند:
+          این پروژه به‌منظور ارسال برای مصاحبه کاری شرکت آسپا طراحی و
+          توسعه داده شده است. تکنولوژی‌های به‌کار رفته در این پروژه
+          شامل موارد زیر می‌باشند:
         </p>
         <div className="flex flex-wrap gap-2 justify-end">
           <Badge variant="outline">Next.js 15</Badge>
